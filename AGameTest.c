@@ -51,7 +51,7 @@ int main() {
         }
 
         // Both; Setting up the snake controls
-        timeout(50); // Wait 100ms for user input
+        timeout(50); // Wait 50ms for user input
         int ch = getch();
         switch(ch) {
             // Arrow keys
@@ -103,7 +103,7 @@ int main() {
         // Refresh the screen
         refresh();
 
-        napms(100); // Pause for 200 milliseconds
+        napms(100); // Pause for 100 milliseconds
     }
 
     // Clean up curses
